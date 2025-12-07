@@ -68,14 +68,12 @@ const ChatWindow = () => {
   };
 
   return (
-    <div className="chat-container">
+    <div className="chat-container" aria-live="polite">
       <div className="chat-header">AI Customer Support Bot</div>
 
-      <div className="chat-box">
-        
+      <div className="chat-box" aria-label="Chat messages">
         {messages.map((msg, i) => (
           <div key={i} className={`msg-row ${msg.sender}`}>
-            
             <div className="bubble">
               {msg.sender === "bot" && (
                 <div className="tag">
@@ -83,9 +81,7 @@ const ChatWindow = () => {
                    msg.usedFAQ ? "📘 FAQ" : "🤖 AI"}
                 </div>
               )}
-
               <div className="msg-text">{msg.text}</div>
-
               <div className="timestamp">
                 {new Date(msg.timestamp).toLocaleTimeString()}
               </div>
@@ -113,6 +109,7 @@ const ChatWindow = () => {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={handleKeyPress}
+          aria-label="Type your message"
         />
         <button onClick={sendMessage} disabled={loading}>Send</button>
       </div>
