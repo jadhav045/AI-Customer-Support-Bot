@@ -122,6 +122,10 @@ Send a user message.
 
 ![Chat UI](./assets/image.png)
 
+### Demo Video
+
+[![AI Customer Support Bot Demo](./assets/demo.mp4)](./assets/demo.mp4)
+
 <!-- Add your screenshots here -->
 
 (Placeholder: Chat UI Screenshot)  
