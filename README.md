@@ -124,22 +124,16 @@ Send a user message.
 
 ### Demo Video
 
-[Watch Demo Video](./assets/demo.mp4)
+The demo video file referenced previously (./assets/demo.mp4) is not present in this branch and will return a 404 on GitHub if missing.
 
-<!-- Add your screenshots here -->
+You can also host the demo externally. Example (Google Drive public/shareable link):
 
-(Placeholder: Chat UI Screenshot)  
-(Placeholder: API Testing Screenshot)  
-(Placeholder: MongoDB Collections Screenshot)
+- Watch demo (Google Drive): https://drive.google.com/file/d/11I6A-HxVRRu-gg2y8MSAuBIXwI1HkP1Y/view?usp=sharing
 
-## 🔮 Future Scope
-
-- **Dynamic FAQ Management**: Admin dashboard for managing FAQs.
-- **Neural Search with Vector Database**: Replace word-overlap fallback with Pinecone, Weaviate, or Milvus.
-- **Personalized Customer Accounts**: Allow customers to log in and access previous conversations.
-- **Real Order Tracking Integration**: Connect chatbot to order database and shipping partners.
-- **Analytics Dashboard**: Track top customer queries, escalation rates, and FAQ effectiveness.
-- **Multi-language Support**: Use LLM translation models to support 10+ languages.
+Note: Ensure the Google Drive file is set to "Anyone with the link can view" so collaborators can open it. Other options:
+- Add demo.mp4 to this repository (small files)
+- Upload to YouTube/Vimeo (recommended for large files)
+- Convert to GIF for inline preview
 
 ## 📌 Author
 
