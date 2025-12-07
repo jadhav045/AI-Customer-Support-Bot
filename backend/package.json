@@ -1,0 +1,29 @@
+{
+  "name": "ai-customer-support-bot-backend",
+  "version": "1.0.0",
+  "description": "Backend API for AI Customer Support Bot (FAQs, LLM, session tracking, escalation).",
+  "main": "app.js",  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "express",
+    "ai",
+    "customer-support",
+    "llm",
+    "faq-bot"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.19.0",
+    "groq-sdk": "^0.37.0",
+    "mongoose": "^8.3.0",
+    "morgan": "^1.10.0",
+    "zod": "^3.23.0"
+  }
+}
