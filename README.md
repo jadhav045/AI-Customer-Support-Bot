@@ -124,7 +124,7 @@ Send a user message.
 
 ### Demo Video
 
-[![AI Customer Support Bot Demo](./assets/demo.mp4)](./assets/demo.mp4)
+[Watch Demo Video](./assets/demo.mp4)
 
 <!-- Add your screenshots here -->
 
